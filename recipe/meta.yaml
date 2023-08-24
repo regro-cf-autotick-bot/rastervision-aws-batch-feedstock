@@ -1,5 +1,5 @@
 {% set name = "rastervision-aws-batch" %}
-{% set version = "0.13.1" %}
+{% set version = "0.21" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rastervision_aws_batch-{{ version }}.tar.gz
-  sha256: 08b2a72ee30719403e9fa4042ba09d345b2f18e6d278f35e02cc58bdf72ab09d
+  sha256: 845dd8075f44e43a0fe409143d7db83a28d38dcfd97995975fc1515c80de888d
   patches:
     - 0001-fix-imports.patch
 
